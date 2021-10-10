@@ -6,17 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --w -d 500 server.json --port 3001"
   },
   "dependencies": {
+    "axios": "^0.22.0",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.17.1",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@types/react": "17.0.27",
+    "@types/styled-components": "^5.1.15",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "json-server": "^0.17.0",
     "typescript": "4.4.3"
   }
 }
